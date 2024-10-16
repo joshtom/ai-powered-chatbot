@@ -31,7 +31,7 @@ export async function POST(request: NextRequest) {
         });
 
         // Send the user's message and get the response from Gemini
-        let result = await chat.sendMessage(userMessage);
+        const result = await chat.sendMessage(userMessage);
 
         // Update chat history
         chatHistory.push({ role: 'user', parts: [{ text: userMessage }] });
