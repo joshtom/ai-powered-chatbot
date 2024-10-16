@@ -1,6 +1,6 @@
 My workshop at Devfest Ilorin (Theme: Responsible AI)(https://devfestilorin.com/)
 
-Live link ()[https://]
+Live link (https://ai-powered-chatbot-j5wxhf9wm-olajide-joshuas-projects.vercel.app/)[https://]
 
 ## Getting Started
 
