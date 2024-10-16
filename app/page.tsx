@@ -19,7 +19,7 @@ export default function Home() {
           <li className='mb-2'>
             Get started by clicking on the{' '}
             <code className='bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold'>
-              "talk to us"
+              &quot;talk to us&quot;
             </code>{' '}
             button .
           </li>

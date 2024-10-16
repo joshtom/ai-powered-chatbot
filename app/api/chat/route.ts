@@ -5,7 +5,7 @@ const API_KEY = process.env.NEXT_PUBLIC_API_KEYS as string
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
-let chatHistory = [
+const chatHistory = [
     {
         role: "user",
         parts: [{ text: "Hello" }],
@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
 
     try {
         // Start the chat if not already initialized
-        let chat = model.startChat({
+        const chat = model.startChat({
             history: chatHistory,
         });
 
